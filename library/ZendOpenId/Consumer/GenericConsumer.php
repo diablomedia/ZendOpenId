@@ -54,21 +54,21 @@ class GenericConsumer
      *
      * @var HttpClient $_httpClient
      */
-    private $_httpClient = null;
+    protected $_httpClient = null;
 
     /**
      * HTTP session to store climed_id between requests
      *
      * @var SessionContainer $_session
      */
-    private $_session = null;
+    protected $_session = null;
 
     /**
      * Last error message for logi, check or verify failure
      *
      * @var string $_error
      */
-    private $_error = '';
+    protected $_error = '';
 
     /**
      * Constructs a ZendOpenId\Consumer\GenericConsumer object with given $storage.

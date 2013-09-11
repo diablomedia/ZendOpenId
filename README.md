@@ -1,11 +1,13 @@
-ZendService\Akismet component
+ZendOpenId component
 
 You can install using:
 
 ```
 curl -s https://getcomposer.org/installer | php
-php composer.phar install
+php composer.phar require ZendFramework/OpenId
 ```
 
-At that point, follow the instructions in the documentation folder for actual
-usage of the component. (Documentation is forthcoming.)
+At that point, follow the instructions for actual usage of
+the component:
+
+http://framework.zend.com/manual/2.2/en/modules/zendopen-id.consumer.html
